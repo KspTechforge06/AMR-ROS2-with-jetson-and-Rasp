@@ -1,0 +1,35 @@
+[0.284s] Invoking command in '/workspaces/multi_amr/build/multi_modal_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_robot_description -- -j4 -l4
+[0.690s] Invoked command in '/workspaces/multi_amr/build/multi_modal_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_robot_description -- -j4 -l4
+[0.692s] Invoking command in '/workspaces/multi_amr/build/multi_modal_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_robot_description
+[0.715s] -- Install configuration: ""
+[0.715s] -- Execute custom install script
+[0.715s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/urdf/robot_description.urdf
+[0.715s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/urdf/safe.urdf
+[0.716s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/base_link.STL
+[0.716s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/camera.STL
+[0.716s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/camera_mount.STL
+[0.718s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/imu.STL
+[0.718s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/laser.STL
+[0.718s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/left_front_wheel.STL
+[0.718s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/left_rear_wheel.STL
+[0.719s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/right_front_wheel.STL
+[0.719s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/right_rear_wheel.STL
+[0.719s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/launch/gazebo.launch.py
+[0.720s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/launch/robot_display.launch.py
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/rviz/robot_display.rviz
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/package_run_dependencies/multi_modal_robot_description
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/parent_prefix_path/multi_modal_robot_description
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/ament_prefix_path.sh
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/ament_prefix_path.dsv
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/path.sh
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/path.dsv
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.bash
+[0.722s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.sh
+[0.723s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.zsh
+[0.723s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.dsv
+[0.723s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.dsv
+[0.725s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/packages/multi_modal_robot_description
+[0.726s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/cmake/multi_modal_robot_descriptionConfig.cmake
+[0.726s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/cmake/multi_modal_robot_descriptionConfig-version.cmake
+[0.726s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.xml
+[0.750s] Invoked command in '/workspaces/multi_amr/build/multi_modal_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_robot_description

@@ -1,0 +1,19 @@
+[0.980s] Invoking command in '/workspaces/multi_amr/build/multi_amr_coordination': PYTHONPATH=/workspaces/multi_amr/build/multi_amr_coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/multi_amr/build/multi_amr_coordination/build --no-deps symlink_data
+[1.228s] running develop
+[1.344s] running egg_info
+[1.345s] writing multi_amr_coordination.egg-info/PKG-INFO
+[1.345s] writing dependency_links to multi_amr_coordination.egg-info/dependency_links.txt
+[1.345s] writing entry points to multi_amr_coordination.egg-info/entry_points.txt
+[1.346s] writing requirements to multi_amr_coordination.egg-info/requires.txt
+[1.346s] writing top-level names to multi_amr_coordination.egg-info/top_level.txt
+[1.349s] reading manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'
+[1.351s] writing manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'
+[1.351s] running build_ext
+[1.352s] Creating /workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages/multi-amr-coordination.egg-link (link to .)
+[1.353s] Installing decentralized_controller script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+[1.355s] Installing peer_message_node script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+[1.355s] Installing robot_state_node script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+[1.356s] 
+[1.356s] Installed /workspaces/multi_amr/build/multi_amr_coordination
+[1.356s] running symlink_data
+[1.407s] Invoked command in '/workspaces/multi_amr/build/multi_amr_coordination' returned '0': PYTHONPATH=/workspaces/multi_amr/build/multi_amr_coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/multi_amr/build/multi_amr_coordination/build --no-deps symlink_data

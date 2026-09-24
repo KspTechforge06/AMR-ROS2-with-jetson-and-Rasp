@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating multi_amr_coordination.egg-info
+writing multi_amr_coordination.egg-info/PKG-INFO
+writing dependency_links to multi_amr_coordination.egg-info/dependency_links.txt
+writing entry points to multi_amr_coordination.egg-info/entry_points.txt
+writing requirements to multi_amr_coordination.egg-info/requires.txt
+writing top-level names to multi_amr_coordination.egg-info/top_level.txt
+writing manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'
+reading manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'
+writing manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages/multi-amr-coordination.egg-link (link to .)
+Installing decentralized_controller script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+Installing peer_message_node script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+Installing robot_state_node script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+
+Installed /workspaces/multi_amr/build/multi_amr_coordination
+running symlink_data
+creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index
+creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index
+creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index/packages
+symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/resource/multi_amr_coordination -> /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index/packages
+symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/package.xml -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination
+creating /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch
+symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/robot_agent.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch
+symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/warehouse_three_robots.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch
+symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/warehouse_five_robots.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch

@@ -1,0 +1,1 @@
+/workspaces/multi_amr/build/multi_modal_worlds/ament_cmake_core/multi_modal_worldsConfig-version.cmake

@@ -1,0 +1,30 @@
+[1.409s] Invoking command in '/workspaces/multi_amr/build/multi_amr_coordination': PYTHONPATH=/workspaces/multi_amr/build/multi_amr_coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/multi_amr/build/multi_amr_coordination/build --no-deps symlink_data
+[1.776s] running develop
+[1.981s] running egg_info
+[1.982s] creating multi_amr_coordination.egg-info
+[1.982s] writing multi_amr_coordination.egg-info/PKG-INFO
+[1.983s] writing dependency_links to multi_amr_coordination.egg-info/dependency_links.txt
+[1.984s] writing entry points to multi_amr_coordination.egg-info/entry_points.txt
+[1.984s] writing requirements to multi_amr_coordination.egg-info/requires.txt
+[1.984s] writing top-level names to multi_amr_coordination.egg-info/top_level.txt
+[1.985s] writing manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'
+[1.988s] reading manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'
+[1.990s] writing manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'
+[1.993s] running build_ext
+[1.993s] Creating /workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages/multi-amr-coordination.egg-link (link to .)
+[1.996s] Installing decentralized_controller script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+[1.996s] Installing peer_message_node script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+[1.996s] Installing robot_state_node script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination
+[1.997s] 
+[1.998s] Installed /workspaces/multi_amr/build/multi_amr_coordination
+[1.998s] running symlink_data
+[1.998s] creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index
+[1.998s] creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index
+[1.998s] creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index/packages
+[1.999s] symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/resource/multi_amr_coordination -> /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index/packages
+[2.000s] symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/package.xml -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination
+[2.001s] creating /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch
+[2.001s] symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/robot_agent.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch
+[2.001s] symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/warehouse_three_robots.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch
+[2.001s] symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/warehouse_five_robots.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch
+[2.084s] Invoked command in '/workspaces/multi_amr/build/multi_amr_coordination' returned '0': PYTHONPATH=/workspaces/multi_amr/build/multi_amr_coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/multi_amr/build/multi_amr_coordination/build --no-deps symlink_data

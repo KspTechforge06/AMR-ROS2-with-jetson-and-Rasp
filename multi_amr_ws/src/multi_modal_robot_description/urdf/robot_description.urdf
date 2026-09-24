@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="robot_description">
+
+  <link name="base_link">
+    <inertial>
+      <origin xyz="7.6948528536791E-05 0 0.0261857833962781" rpy="0 0 0" />
+      <mass value="1.53420947327442" />
+      <inertia
+        ixx="0.00321186473847952" ixy="-7.52949979922093E-20" ixz="-3.28815241449119E-06"
+        iyy="0.00539260227752637" iyz="-1.64382261086495E-19"
+        izz="0.00778291868260257" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/base_link.STL" />
+      </geometry>
+      <material name="base_light_grey">
+        <color rgba="0.82 0.82 0.82 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="right_rear_wheel">
+    <inertial>
+      <origin xyz="-1.28988881575864E-07 -1.26724034044123E-07 -0.0107733723470662" rpy="0 0 0" />
+      <mass value="0.0582732961359039" />
+      <inertia
+        ixx="1.59449657371425E-05" ixy="-6.00040945181797E-10" ixz="5.67711963955902E-11"
+        iyy="1.59455054465815E-05" iyz="2.83154614600914E-11"
+        izz="2.51338260661103E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/right_rear_wheel.STL" />
+      </geometry>
+      <material name="wheel_black">
+        <color rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/right_rear_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="right_front_wheel">
+    <inertial>
+      <origin xyz="8.95603858852567E-08 -1.57086115115668E-07 0.0108865609323781" rpy="0 0 0" />
+      <mass value="0.0582732961358486" />
+      <inertia
+        ixx="1.59453205826518E-05" ixy="6.52416503175294E-10" ixz="4.69027697652874E-11"
+        iyy="1.59451506010442E-05" iyz="-4.27184277408724E-11"
+        izz="2.51338260660813E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/right_front_wheel.STL" />
+      </geometry>
+      <material name="wheel_black">
+        <color rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/right_front_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="left_front_wheel">
+    <inertial>
+      <origin xyz="-8.9987239437761E-08 -1.56841980292199E-07 -0.0108865609323794" rpy="0 0 0" />
+      <mass value="0.0582732961358496" />
+      <inertia
+        ixx="1.59453170329993E-05" ixy="-6.52869105780602E-10" ixz="4.70187661914906E-11"
+        iyy="1.59451541506974E-05" iyz="4.25907207900307E-11"
+        izz="2.51338260660819E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/left_front_wheel.STL" />
+      </geometry>
+      <material name="wheel_black">
+        <color rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/left_front_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="left_rear_wheel">
+    <inertial>
+      <origin xyz="-1.28988881464842E-07 -1.26724033822079E-07 -0.0108865609323767" rpy="0 0 0" />
+      <mass value="0.0582732961359039" />
+      <inertia
+        ixx="1.59449657371426E-05" ixy="-6.00040945195921E-10" ixz="5.67711963738266E-11"
+        iyy="1.59455054465814E-05" iyz="2.83154614685195E-11"
+        izz="2.51338260661103E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/left_rear_wheel.STL" />
+      </geometry>
+      <material name="wheel_black">
+        <color rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/left_rear_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="laser">
+    <inertial>
+      <origin xyz="0 0 0.0237327353365688" rpy="0 0 0" />
+      <mass value="0.07745716464091" />
+      <inertia
+        ixx="2.42847194473022E-05" ixy="1.49933379197007E-21" ixz="3.78646709477917E-22"
+        iyy="2.42847194473022E-05" iyz="1.46787759015111E-21"
+        izz="2.6793933334671E-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/laser.STL" />
+      </geometry>
+      <material name="laser_black">
+        <color rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/laser.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="imu">
+    <inertial>
+      <origin xyz="-1.77743604954372E-05 3.51456607490253E-05 -0.0010160024506306" rpy="0 0 0" />
+      <mass value="0.00054752665103237" />
+      <inertia
+        ixx="1.48155640803613E-08" ixy="-1.55613781331633E-11" ixz="-1.07531504211455E-11"
+        iyy="1.04090946991956E-08" iyz="2.04511171320857E-11"
+        izz="2.48444938194176E-08" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/imu.STL" />
+      </geometry>
+      <material name="imu_blue">
+        <color rgba="0.0 0.45 0.9 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/imu.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="camera_mount">
+    <inertial>
+      <origin xyz="0 0 0.0117302943139738" rpy="0 0 0" />
+      <mass value="0.00386001098892021" />
+      <inertia
+        ixx="9.61914854495729E-07" ixy="-1.49139821536E-08" ixz="1.79214807242752E-22"
+        iyy="2.86546078010952E-07" iyz="-4.67121288574838E-22"
+        izz="8.18416938020156E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/camera_mount.STL" />
+      </geometry>
+      <material name="camera_mount_light_grey">
+        <color rgba="0.88 0.88 0.88 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/camera_mount.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="camera">
+    <inertial>
+      <origin xyz="0.0103416604637965 -0.000228260778192491 -0.000157479879624445" rpy="0 0 0" />
+      <mass value="0.0144267543302774" />
+      <inertia
+        ixx="1.96502490205712E-06" ixy="-2.12748123921785E-08" ixz="5.63860872055257E-10"
+        iyy="1.00161059663231E-06" iyz="-1.24871982236999E-11"
+        izz="2.00253255750799E-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/camera.STL" />
+      </geometry>
+      <material name="camera_dark_grey">
+        <color rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://multi_modal_robot_description/meshes/camera.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="right_rear_wheel_joint" type="continuous">
+    <origin xyz="-0.0800000000000001 -0.0816000000000001 0.01" rpy="-1.5707963267949 0 0" />
+    <parent link="base_link" />
+    <child link="right_rear_wheel" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <joint name="right_front_wheel_joint" type="continuous">
+    <origin xyz="0.08 -0.10326 0.0100000000000002" rpy="-1.5707963267949 0 0" />
+    <parent link="base_link" />
+    <child link="right_front_wheel" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <joint name="left_front_wheel_joint" type="continuous">
+    <origin xyz="0.08 0.103260000000001 0.0100000000000003" rpy="-1.5707963267949 0 0" />
+    <parent link="base_link" />
+    <child link="left_front_wheel" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <joint name="left_rear_wheel_joint" type="continuous">
+    <origin xyz="-0.0800000000000001 0.10326 0.01" rpy="-1.5707963267949 0 0" />
+    <parent link="base_link" />
+    <child link="left_rear_wheel" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <joint name="laser_joint" type="fixed">
+    <origin xyz="0 0 0.105" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="laser" />
+  </joint>
+
+  <joint name="imu_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="imu" />
+  </joint>
+
+  <joint name="camera_mount_joint" type="fixed">
+    <origin xyz="0.0925 0 0.055" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="camera_mount" />
+  </joint>
+
+  <joint name="camera_joint" type="fixed">
+    <origin xyz="-0.0049982 0.00011032 0.019576" rpy="0 0 0" />
+    <parent link="camera_mount" />
+    <child link="camera" />
+  </joint>
+
+  <gazebo reference="base_link">
+    <visual>
+      <material>
+        <ambient>0.82 0.82 0.82 1</ambient>
+        <diffuse>0.82 0.82 0.82 1</diffuse>
+        <specular>0.4 0.4 0.4 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo reference="left_front_wheel">
+    <visual>
+      <material>
+        <ambient>0.08 0.08 0.08 1</ambient>
+        <diffuse>0.08 0.08 0.08 1</diffuse>
+        <specular>0.02 0.02 0.02 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo reference="right_front_wheel">
+    <visual>
+      <material>
+        <ambient>0.08 0.08 0.08 1</ambient>
+        <diffuse>0.08 0.08 0.08 1</diffuse>
+        <specular>0.02 0.02 0.02 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo reference="left_rear_wheel">
+    <visual>
+      <material>
+        <ambient>0.08 0.08 0.08 1</ambient>
+        <diffuse>0.08 0.08 0.08 1</diffuse>
+        <specular>0.02 0.02 0.02 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo reference="right_rear_wheel">
+    <visual>
+      <material>
+        <ambient>0.08 0.08 0.08 1</ambient>
+        <diffuse>0.08 0.08 0.08 1</diffuse>
+        <specular>0.02 0.02 0.02 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo reference="laser">
+    <visual>
+      <material>
+        <ambient>0.05 0.05 0.08 1</ambient>
+        <diffuse>0.05 0.05 0.08 1</diffuse>
+        <specular>0.1 0.1 0.3 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo reference="imu">
+    <visual>
+      <material>
+        <ambient>0.0 0.45 0.9 1</ambient>
+        <diffuse>0.0 0.45 0.9 1</diffuse>
+        <specular>0.1 0.1 0.5 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo reference="camera_mount">
+    <visual>
+      <material>
+        <ambient>0.88 0.88 0.88 1</ambient>
+        <diffuse>0.88 0.88 0.88 1</diffuse>
+        <specular>0.3 0.3 0.3 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo reference="camera">
+    <visual>
+      <material>
+        <ambient>0.2 0.2 0.2 1</ambient>
+        <diffuse>0.2 0.2 0.2 1</diffuse>
+        <specular>0.1 0.1 0.1 1</specular>
+      </material>
+    </visual>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="gz-sim-diff-drive-system"
+            name="gz::sim::systems::DiffDrive">
+      <left_joint>left_front_wheel_joint</left_joint>
+      <right_joint>right_front_wheel_joint</right_joint>
+      <left_joint>left_rear_wheel_joint</left_joint>
+      <right_joint>right_rear_wheel_joint</right_joint>
+      <wheel_separation>0.20652</wheel_separation>
+      <wheel_radius>0.03</wheel_radius>
+      <max_linear_acceleration>1</max_linear_acceleration>
+      <topic>cmd_vel</topic>
+      <odom_topic>odom</odom_topic>
+      <tf_topic>tf</tf_topic>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_link</child_frame_id>
+      <odom_publish_frequency>50</odom_publish_frequency>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher">
+      <topic>joint_states</topic>
+    </plugin>
+  </gazebo>
+
+  <gazebo reference="laser">
+    <sensor name="lidar_sensor" type="gpu_lidar">
+      <always_on>1</always_on>
+      <update_rate>10</update_rate>
+      <visualize>true</visualize>
+      <topic>scan</topic>
+      <gz_frame_id>laser</gz_frame_id>
+
+      <lidar>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+          <vertical>
+            <samples>1</samples>
+            <resolution>1</resolution>
+            <min_angle>0</min_angle>
+            <max_angle>0</max_angle>
+          </vertical>
+        </scan>
+
+        <range>
+          <min>0.12</min>
+          <max>12.0</max>
+          <resolution>0.01</resolution>
+        </range>
+
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </lidar>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="camera">
+    <sensor name="camera_sensor" type="camera">
+      <always_on>1</always_on>
+      <update_rate>30</update_rate>
+      <visualize>true</visualize>
+      <topic>camera/image_raw</topic>
+      <gz_frame_id>camera</gz_frame_id>
+
+      <camera>
+        <horizontal_fov>1.047</horizontal_fov>
+        <image>
+          <width>640</width>
+          <height>480</height>
+          <format>RGB_INT8</format>
+        </image>
+        <clip>
+          <near>0.1</near>
+          <far>100</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="imu">
+    <sensor name="imu_sensor" type="imu">
+      <always_on>1</always_on>
+      <update_rate>100</update_rate>
+      <visualize>true</visualize>
+      <topic>imu</topic>
+    </sensor>
+  </gazebo>
+
+</robot>

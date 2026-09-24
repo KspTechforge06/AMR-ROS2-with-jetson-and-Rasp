@@ -1,0 +1,5 @@
+[console_scripts]
+decentralized_controller = multi_amr_coordination.decentralized_controller:main
+peer_message_node = multi_amr_coordination.peer_message_node:main
+robot_state_node = multi_amr_coordination.robot_state_node:main
+

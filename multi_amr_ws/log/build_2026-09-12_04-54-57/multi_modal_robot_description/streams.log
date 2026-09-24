@@ -1,0 +1,77 @@
+[0.307s] Invoking command in '/workspaces/multi_amr/build/multi_modal_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/multi_amr/src/multi_modal_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/multi_amr/install/multi_modal_robot_description
+[0.686s] -- The C compiler identification is GNU 11.4.0
+[0.833s] -- The CXX compiler identification is GNU 11.4.0
+[0.852s] -- Detecting C compiler ABI info
+[1.014s] -- Detecting C compiler ABI info - done
+[1.036s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.037s] -- Detecting C compile features
+[1.038s] -- Detecting C compile features - done
+[1.045s] -- Detecting CXX compiler ABI info
+[1.226s] -- Detecting CXX compiler ABI info - done
+[1.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.248s] -- Detecting CXX compile features
+[1.249s] -- Detecting CXX compile features - done
+[1.506s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.786s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.919s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.977s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.083s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.100s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.126s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.320s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.330s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.534s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.588s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.689s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.712s] -- Looking for pthread.h
+[2.868s] -- Looking for pthread.h - found
+[2.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.085s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.089s] -- Found Threads: TRUE  
+[3.191s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.231s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[3.234s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[3.268s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.270s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.270s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.538s] -- Configuring done
+[3.546s] -- Generating done
+[3.550s] -- Build files have been written to: /workspaces/multi_amr/build/multi_modal_robot_description
+[3.563s] Invoked command in '/workspaces/multi_amr/build/multi_modal_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/multi_amr/src/multi_modal_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/multi_amr/install/multi_modal_robot_description
+[3.564s] Invoking command in '/workspaces/multi_amr/build/multi_modal_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_robot_description -- -j12 -l12
+[3.625s] Invoked command in '/workspaces/multi_amr/build/multi_modal_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_robot_description -- -j12 -l12
+[3.628s] Invoking command in '/workspaces/multi_amr/build/multi_modal_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_robot_description
+[3.640s] -- Install configuration: ""
+[3.641s] -- Execute custom install script
+[3.641s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/urdf/robot_description.urdf
+[3.654s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/urdf/safe.urdf
+[3.666s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/base_link.STL
+[3.678s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/camera.STL
+[3.692s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/camera_mount.STL
+[3.713s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/imu.STL
+[3.736s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/laser.STL
+[3.758s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/left_front_wheel.STL
+[3.779s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/left_rear_wheel.STL
+[3.802s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/right_front_wheel.STL
+[3.823s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/right_rear_wheel.STL
+[3.848s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/launch/gazebo.launch.py
+[3.872s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/launch/robot_display.launch.py
+[3.894s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/rviz/robot_display.rviz
+[3.912s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/package_run_dependencies/multi_modal_robot_description
+[3.926s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/parent_prefix_path/multi_modal_robot_description
+[3.940s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/ament_prefix_path.sh
+[3.953s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/ament_prefix_path.dsv
+[3.966s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/path.sh
+[3.980s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/path.dsv
+[3.998s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.bash
+[4.015s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.sh
+[4.032s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.zsh
+[4.049s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.dsv
+[4.068s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.dsv
+[4.087s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/packages/multi_modal_robot_description
+[4.106s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/cmake/multi_modal_robot_descriptionConfig.cmake
+[4.120s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/cmake/multi_modal_robot_descriptionConfig-version.cmake
+[4.135s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.xml
+[4.153s] Invoked command in '/workspaces/multi_amr/build/multi_modal_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_robot_description

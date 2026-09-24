@@ -1,0 +1,281 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'multi_modal_worlds', 'multi_modal_robot_description', 'multi_amr_coordination']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['multi_modal_worlds', 'multi_modal_robot_description', 'multi_amr_coordination'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8315db4250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8315ec5360>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8315ec5360>>, mixin_verb=('build',))
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.290s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.290s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.291s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.291s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/multi_amr'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_amr_coordination) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_amr_coordination' with type 'ros.ament_python' and name 'multi_amr_coordination'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_bringup) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_modal_bringup' with type 'ros.ament_python' and name 'multi_modal_bringup'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_perception) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_modal_perception' with type 'ros.ament_python' and name 'multi_modal_perception'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_robot_description) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_modal_robot_description' with type 'ros.ament_cmake' and name 'multi_modal_robot_description'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_modal_worlds) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_modal_worlds' with type 'ros.ament_cmake' and name 'multi_modal_worlds'
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.340s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'multi_modal_bringup' in 'src/multi_modal_bringup'
+[0.340s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'multi_modal_perception' in 'src/multi_modal_perception'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'multi_amr_coordination' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'multi_amr_coordination' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/multi_amr/build/multi_amr_coordination', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/multi_amr/install/multi_amr_coordination', 'merge_install': False, 'path': '/workspaces/multi_amr/src/multi_amr_coordination', 'symlink_install': True, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'multi_modal_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/multi_amr/build/multi_modal_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/multi_amr/install/multi_modal_robot_description', 'merge_install': False, 'path': '/workspaces/multi_amr/src/multi_modal_robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_modal_worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'multi_modal_worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/multi_amr/build/multi_modal_worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/multi_amr/install/multi_modal_worlds', 'merge_install': False, 'path': '/workspaces/multi_amr/src/multi_modal_worlds', 'symlink_install': True, 'test_result_base': None}
+[0.343s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/multi_amr/src/multi_amr_coordination' with build type 'ament_python'
+[0.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_amr_coordination', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/hook/ament_prefix_path.dsv'
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/hook/ament_prefix_path.sh'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/multi_amr/src/multi_modal_robot_description' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/multi_amr/src/multi_modal_robot_description'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/multi_amr/src/multi_modal_worlds' with build type 'ament_cmake'
+[0.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/multi_amr/src/multi_modal_worlds'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.631s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/multi_amr/src/multi_amr_coordination'
+[0.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/multi_amr/build/multi_modal_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_robot_description -- -j12 -l12
+[0.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/multi_amr/build/multi_modal_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_worlds -- -j12 -l12
+[0.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/multi_amr/build/multi_modal_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_worlds -- -j12 -l12
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/multi_amr/build/multi_modal_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_worlds
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/multi_amr/build/multi_modal_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_robot_description -- -j12 -l12
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/multi_amr/build/multi_modal_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_robot_description
+[0.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_modal_worlds)
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/multi_amr/build/multi_modal_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_worlds
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds' for CMake module files
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds' for CMake config files
+[0.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_modal_worlds', 'cmake_prefix_path')
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/hook/cmake_prefix_path.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/hook/cmake_prefix_path.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/hook/cmake_prefix_path.sh'
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/lib'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/bin'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/lib/pkgconfig/multi_modal_worlds.pc'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/lib/python3.10/site-packages'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/bin'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.sh'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.bash'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.zsh'
+[0.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/multi_amr/install/multi_modal_worlds/share/colcon-core/packages/multi_modal_worlds)
+[0.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_modal_worlds)
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds' for CMake module files
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds' for CMake config files
+[0.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_modal_worlds', 'cmake_prefix_path')
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/hook/cmake_prefix_path.ps1'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/hook/cmake_prefix_path.dsv'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/hook/cmake_prefix_path.sh'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/lib'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/bin'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/lib/pkgconfig/multi_modal_worlds.pc'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/lib/python3.10/site-packages'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_worlds/bin'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.sh'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.bash'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.zsh'
+[0.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/multi_amr/install/multi_modal_worlds/share/colcon-core/packages/multi_modal_worlds)
+[0.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_modal_robot_description)
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description' for CMake module files
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/multi_amr/build/multi_modal_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_robot_description
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description' for CMake config files
+[0.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_modal_robot_description', 'cmake_prefix_path')
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/hook/cmake_prefix_path.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/hook/cmake_prefix_path.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/hook/cmake_prefix_path.sh'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description/bin'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description/lib/pkgconfig/multi_modal_robot_description.pc'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description/lib/python3.10/site-packages'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description/bin'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.dsv'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.sh'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.bash'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.zsh'
+[0.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/multi_amr/install/multi_modal_robot_description/share/colcon-core/packages/multi_modal_robot_description)
+[0.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_modal_robot_description)
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description' for CMake module files
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description' for CMake config files
+[0.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_modal_robot_description', 'cmake_prefix_path')
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/hook/cmake_prefix_path.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/hook/cmake_prefix_path.dsv'
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/hook/cmake_prefix_path.sh'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description/bin'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description/lib/pkgconfig/multi_modal_robot_description.pc'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description/lib/python3.10/site-packages'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_modal_robot_description/bin'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.sh'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.bash'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.zsh'
+[0.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/multi_amr/install/multi_modal_robot_description/share/colcon-core/packages/multi_modal_robot_description)
+[1.019s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_rpm, build_scripts, rotate, build_py, install_lib, install_scripts, build, upload, egg_info, install_egg_info, bdist_egg, install_headers, bdist_dumb, setopt, clean, develop, install, build_ext, sdist, dist_info, test, register, bdist, upload_docs, alias, saveopts, check, build_clib, install_data, easy_install, symlink_data
+[1.323s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-find-links, --install-layout, --build-directory, --version, --prefix, --no-user-cfg, --verbose, --optimize, --dry-run, --egg-path, --exclude-scripts, --record, --force-installation-into-system-dir, --allow-hosts, --zip-ok, --no-deps, --quiet, --upgrade, --uninstall, --editable, --find-links, --index-url, --install-dir, --user, --multi-version, --local-snapshots-ok, --always-copy, --site-dirs, --help, --script-dir, --always-unzip
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/multi_amr/build/multi_amr_coordination': PYTHONPATH=/workspaces/multi_amr/build/multi_amr_coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/multi_amr/build/multi_amr_coordination/build --no-deps symlink_data
+[1.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_amr_coordination', 'pythonpath_develop')
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/build/multi_amr_coordination/share/multi_amr_coordination/hook/pythonpath_develop.ps1'
+[1.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/multi_amr/build/multi_amr_coordination' returned '0': PYTHONPATH=/workspaces/multi_amr/build/multi_amr_coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/multi_amr/build/multi_amr_coordination/build --no-deps symlink_data
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/multi_amr/build/multi_amr_coordination/share/multi_amr_coordination/hook/pythonpath_develop.dsv'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/build/multi_amr_coordination/share/multi_amr_coordination/hook/pythonpath_develop.sh'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_amr_coordination' for CMake module files
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_amr_coordination' for CMake config files
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_amr_coordination/lib'
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_amr_coordination/bin'
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_amr_coordination/lib/pkgconfig/multi_amr_coordination.pc'
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages'
+[1.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_amr_coordination', 'pythonpath')
+[1.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/hook/pythonpath.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/hook/pythonpath.dsv'
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/hook/pythonpath.sh'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/workspaces/multi_amr/install/multi_amr_coordination/bin'
+[1.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_amr_coordination)
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/package.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/package.dsv'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/package.sh'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/package.bash'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/package.zsh'
+[1.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/multi_amr/install/multi_amr_coordination/share/colcon-core/packages/multi_amr_coordination)
+[1.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.765s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.765s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.765s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.773s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.776s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.776s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/multi_amr/install/local_setup.ps1'
+[1.779s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/multi_amr/install/_local_setup_util_ps1.py'
+[1.780s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/multi_amr/install/setup.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/multi_amr/install/local_setup.sh'
+[1.782s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/multi_amr/install/_local_setup_util_sh.py'
+[1.783s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/multi_amr/install/setup.sh'
+[1.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/multi_amr/install/local_setup.bash'
+[1.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/multi_amr/install/setup.bash'
+[1.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/multi_amr/install/local_setup.zsh'
+[1.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/multi_amr/install/setup.zsh'

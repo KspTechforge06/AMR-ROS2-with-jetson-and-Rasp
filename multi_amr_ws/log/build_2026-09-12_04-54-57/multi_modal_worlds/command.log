@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/multi_amr/build/multi_modal_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/multi_amr/src/multi_modal_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/multi_amr/install/multi_modal_worlds
+Invoked command in '/workspaces/multi_amr/build/multi_modal_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/multi_amr/src/multi_modal_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/multi_amr/install/multi_modal_worlds
+Invoking command in '/workspaces/multi_amr/build/multi_modal_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_worlds -- -j12 -l12
+Invoked command in '/workspaces/multi_amr/build/multi_modal_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_worlds -- -j12 -l12
+Invoking command in '/workspaces/multi_amr/build/multi_modal_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_worlds
+Invoked command in '/workspaces/multi_amr/build/multi_modal_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_worlds

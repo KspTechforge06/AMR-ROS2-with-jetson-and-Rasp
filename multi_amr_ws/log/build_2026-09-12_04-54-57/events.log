@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000479] (-) JobUnselected: {'identifier': 'multi_modal_bringup'}
+[0.001016] (-) JobUnselected: {'identifier': 'multi_modal_perception'}
+[0.001232] (multi_amr_coordination) JobQueued: {'identifier': 'multi_amr_coordination', 'dependencies': OrderedDict()}
+[0.001403] (multi_modal_robot_description) JobQueued: {'identifier': 'multi_modal_robot_description', 'dependencies': OrderedDict()}
+[0.001477] (multi_modal_worlds) JobQueued: {'identifier': 'multi_modal_worlds', 'dependencies': OrderedDict()}
+[0.001526] (multi_amr_coordination) JobStarted: {'identifier': 'multi_amr_coordination'}
+[0.016371] (multi_modal_robot_description) JobStarted: {'identifier': 'multi_modal_robot_description'}
+[0.023067] (multi_modal_worlds) JobStarted: {'identifier': 'multi_modal_worlds'}
+[0.099642] (-) TimerEvent: {}
+[0.199995] (-) TimerEvent: {}
+[0.300451] (-) TimerEvent: {}
+[0.322387] (multi_modal_robot_description) JobProgress: {'identifier': 'multi_modal_robot_description', 'progress': 'cmake'}
+[0.323108] (multi_modal_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/multi_amr/src/multi_modal_robot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/multi_amr/install/multi_modal_robot_description'], 'cwd': '/workspaces/multi_amr/build/multi_modal_robot_description', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/multi_amr'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/multi_amr/build/multi_modal_robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.341031] (multi_modal_worlds) JobProgress: {'identifier': 'multi_modal_worlds', 'progress': 'cmake'}
+[0.342620] (multi_modal_worlds) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/multi_amr/src/multi_modal_worlds', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/multi_amr/install/multi_modal_worlds'], 'cwd': '/workspaces/multi_amr/build/multi_modal_worlds', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/multi_amr'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/multi_amr/build/multi_modal_worlds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.400727] (-) TimerEvent: {}
+[0.501198] (-) TimerEvent: {}
+[0.601719] (-) TimerEvent: {}
+[0.702324] (multi_modal_worlds) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.702670] (-) TimerEvent: {}
+[0.702918] (multi_modal_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.802892] (-) TimerEvent: {}
+[0.846208] (multi_modal_worlds) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.848882] (multi_modal_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.867999] (multi_modal_worlds) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.868637] (multi_modal_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.903044] (-) TimerEvent: {}
+[1.003724] (-) TimerEvent: {}
+[1.022715] (multi_modal_worlds) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.030791] (multi_modal_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.043054] (multi_modal_worlds) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.043744] (multi_modal_worlds) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.044722] (multi_modal_worlds) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.052694] (multi_modal_worlds) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.053231] (multi_modal_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.053916] (multi_modal_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.054806] (multi_modal_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.061895] (multi_modal_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.103889] (-) TimerEvent: {}
+[1.204641] (-) TimerEvent: {}
+[1.224649] (multi_modal_worlds) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.242614] (multi_modal_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.243135] (multi_modal_worlds) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.243407] (multi_modal_worlds) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.244669] (multi_modal_worlds) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.251225] (multi_modal_worlds) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.264028] (multi_modal_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.264883] (multi_modal_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.266046] (multi_modal_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.304764] (-) TimerEvent: {}
+[1.381695] (multi_amr_coordination) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/multi_amr/build/multi_amr_coordination/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/multi_amr/build/multi_amr_coordination', 'env': {'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/workspaces/multi_amr', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/workspaces/multi_amr/build/multi_amr_coordination', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/multi_amr/build/multi_amr_coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.410552] (-) TimerEvent: {}
+[1.510945] (-) TimerEvent: {}
+[1.522451] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.553293] (multi_modal_worlds) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.611079] (-) TimerEvent: {}
+[1.671384] (multi_modal_worlds) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.711231] (-) TimerEvent: {}
+[1.777152] (multi_amr_coordination) StdoutLine: {'line': b'running develop\n'}
+[1.803287] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.811351] (-) TimerEvent: {}
+[1.852648] (multi_modal_worlds) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.857862] (multi_modal_worlds) StdoutLine: {'line': b'-- Generating done\n'}
+[1.860795] (multi_modal_worlds) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/multi_amr/build/multi_modal_worlds\n'}
+[1.866827] (multi_modal_worlds) CommandEnded: {'returncode': 0}
+[1.867811] (multi_modal_worlds) JobProgress: {'identifier': 'multi_modal_worlds', 'progress': 'build'}
+[1.870468] (multi_modal_worlds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/multi_amr/build/multi_modal_worlds', '--', '-j12', '-l12'], 'cwd': '/workspaces/multi_amr/build/multi_modal_worlds', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/multi_amr'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/multi_amr/build/multi_modal_worlds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.911578] (-) TimerEvent: {}
+[1.935869] (multi_modal_robot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.947704] (multi_modal_worlds) CommandEnded: {'returncode': 0}
+[1.950465] (multi_modal_worlds) JobProgress: {'identifier': 'multi_modal_worlds', 'progress': 'install'}
+[1.967162] (multi_modal_worlds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/multi_amr/build/multi_modal_worlds'], 'cwd': '/workspaces/multi_amr/build/multi_modal_worlds', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/multi_amr'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/multi_amr/build/multi_modal_worlds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.982207] (multi_amr_coordination) StdoutLine: {'line': b'running egg_info\n'}
+[1.982904] (multi_amr_coordination) StdoutLine: {'line': b'creating multi_amr_coordination.egg-info\n'}
+[1.983507] (multi_amr_coordination) StdoutLine: {'line': b'writing multi_amr_coordination.egg-info/PKG-INFO\n'}
+[1.984021] (multi_modal_worlds) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.984450] (multi_amr_coordination) StdoutLine: {'line': b'writing dependency_links to multi_amr_coordination.egg-info/dependency_links.txt\n'}
+[1.984860] (multi_amr_coordination) StdoutLine: {'line': b'writing entry points to multi_amr_coordination.egg-info/entry_points.txt\n'}
+[1.985256] (multi_amr_coordination) StdoutLine: {'line': b'writing requirements to multi_amr_coordination.egg-info/requires.txt\n'}
+[1.985866] (multi_amr_coordination) StdoutLine: {'line': b'writing top-level names to multi_amr_coordination.egg-info/top_level.txt\n'}
+[1.986124] (multi_amr_coordination) StdoutLine: {'line': b"writing manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'\n"}
+[1.987711] (multi_modal_worlds) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.989102] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/launch/warehouse_world.launch.py\n'}
+[1.989676] (multi_amr_coordination) StdoutLine: {'line': b"reading manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'\n"}
+[1.991039] (multi_amr_coordination) StdoutLine: {'line': b"writing manifest file 'multi_amr_coordination.egg-info/SOURCES.txt'\n"}
+[1.993704] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.994144] (multi_amr_coordination) StdoutLine: {'line': b'running build_ext\n'}
+[1.994608] (multi_amr_coordination) StdoutLine: {'line': b'Creating /workspaces/multi_amr/install/multi_amr_coordination/lib/python3.10/site-packages/multi-amr-coordination.egg-link (link to .)\n'}
+[1.996757] (multi_amr_coordination) StdoutLine: {'line': b'Installing decentralized_controller script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination\n'}
+[1.997340] (multi_amr_coordination) StdoutLine: {'line': b'Installing peer_message_node script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination\n'}
+[1.997852] (multi_amr_coordination) StdoutLine: {'line': b'Installing robot_state_node script to /workspaces/multi_amr/install/multi_amr_coordination/lib/multi_amr_coordination\n'}
+[1.998720] (multi_amr_coordination) StdoutLine: {'line': b'\n'}
+[1.998991] (multi_amr_coordination) StdoutLine: {'line': b'Installed /workspaces/multi_amr/build/multi_amr_coordination\n'}
+[1.999136] (multi_amr_coordination) StdoutLine: {'line': b'running symlink_data\n'}
+[1.999341] (multi_amr_coordination) StdoutLine: {'line': b'creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index\n'}
+[1.999563] (multi_amr_coordination) StdoutLine: {'line': b'creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index\n'}
+[1.999811] (multi_amr_coordination) StdoutLine: {'line': b'creating /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index/packages\n'}
+[2.000052] (multi_amr_coordination) StdoutLine: {'line': b'symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/resource/multi_amr_coordination -> /workspaces/multi_amr/install/multi_amr_coordination/share/ament_index/resource_index/packages\n'}
+[2.001035] (multi_amr_coordination) StdoutLine: {'line': b'symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/package.xml -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination\n'}
+[2.001818] (multi_amr_coordination) StdoutLine: {'line': b'creating /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch\n'}
+[2.002476] (multi_amr_coordination) StdoutLine: {'line': b'symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/robot_agent.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch\n'}
+[2.002739] (multi_amr_coordination) StdoutLine: {'line': b'symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/warehouse_three_robots.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch\n'}
+[2.002889] (multi_amr_coordination) StdoutLine: {'line': b'symbolically linking /workspaces/multi_amr/build/multi_amr_coordination/launch/warehouse_five_robots.launch.py -> /workspaces/multi_amr/install/multi_amr_coordination/share/multi_amr_coordination/launch\n'}
+[2.011756] (-) TimerEvent: {}
+[2.015028] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/worlds/warehouse.sdf\n'}
+[2.034361] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/worlds/warehouse_mapping.sdf\n'}
+[2.053673] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/lib/multi_modal_worlds/warehouse_traffic_controller.py\n'}
+[2.079935] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/ament_index/resource_index/package_run_dependencies/multi_modal_worlds\n'}
+[2.084217] (multi_amr_coordination) CommandEnded: {'returncode': 0}
+[2.099518] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/ament_index/resource_index/parent_prefix_path/multi_modal_worlds\n'}
+[2.100084] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.112629] (-) TimerEvent: {}
+[2.116821] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.119532] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/environment/ament_prefix_path.sh\n'}
+[2.123011] (multi_amr_coordination) JobEnded: {'identifier': 'multi_amr_coordination', 'rc': 0}
+[2.142619] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.143102] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/environment/ament_prefix_path.dsv\n'}
+[2.163449] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/environment/path.sh\n'}
+[2.174583] (multi_modal_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.182722] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/environment/path.dsv\n'}
+[2.202344] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/local_setup.bash\n'}
+[2.212816] (-) TimerEvent: {}
+[2.216668] (multi_modal_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.222118] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/local_setup.sh\n'}
+[2.245225] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/local_setup.zsh\n'}
+[2.267118] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/local_setup.dsv\n'}
+[2.290765] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.dsv\n'}
+[2.309395] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/ament_index/resource_index/packages/multi_modal_worlds\n'}
+[2.312976] (-) TimerEvent: {}
+[2.333884] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/cmake/multi_modal_worldsConfig.cmake\n'}
+[2.337074] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.347043] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.358257] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/cmake/multi_modal_worldsConfig-version.cmake\n'}
+[2.380553] (multi_modal_worlds) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.xml\n'}
+[2.402772] (multi_modal_worlds) CommandEnded: {'returncode': 0}
+[2.413455] (-) TimerEvent: {}
+[2.439051] (multi_modal_worlds) JobEnded: {'identifier': 'multi_modal_worlds', 'rc': 0}
+[2.513647] (-) TimerEvent: {}
+[2.550688] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.604303] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.613823] (-) TimerEvent: {}
+[2.705541] (multi_modal_robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.713993] (-) TimerEvent: {}
+[2.728532] (multi_modal_robot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.814227] (-) TimerEvent: {}
+[2.884800] (multi_modal_robot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.886277] (multi_modal_robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.914498] (-) TimerEvent: {}
+[3.015224] (-) TimerEvent: {}
+[3.102080] (multi_modal_robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.105947] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.115565] (-) TimerEvent: {}
+[3.207732] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[3.215733] (-) TimerEvent: {}
+[3.248343] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)\n'}
+[3.250639] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[3.284966] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.286705] (multi_modal_robot_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.286879] (multi_modal_robot_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.315940] (-) TimerEvent: {}
+[3.416273] (-) TimerEvent: {}
+[3.516676] (-) TimerEvent: {}
+[3.555281] (multi_modal_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.563370] (multi_modal_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.567056] (multi_modal_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/multi_amr/build/multi_modal_robot_description\n'}
+[3.579391] (multi_modal_robot_description) CommandEnded: {'returncode': 0}
+[3.580180] (multi_modal_robot_description) JobProgress: {'identifier': 'multi_modal_robot_description', 'progress': 'build'}
+[3.580641] (multi_modal_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/multi_amr/build/multi_modal_robot_description', '--', '-j12', '-l12'], 'cwd': '/workspaces/multi_amr/build/multi_modal_robot_description', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/multi_amr'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/multi_amr/build/multi_modal_robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.616817] (-) TimerEvent: {}
+[3.642230] (multi_modal_robot_description) CommandEnded: {'returncode': 0}
+[3.643316] (multi_modal_robot_description) JobProgress: {'identifier': 'multi_modal_robot_description', 'progress': 'install'}
+[3.644156] (multi_modal_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/multi_amr/build/multi_modal_robot_description'], 'cwd': '/workspaces/multi_amr/build/multi_modal_robot_description', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspaces/multi_amr'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspaces/multi_amr/build/multi_modal_robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.656782] (multi_modal_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.657742] (multi_modal_robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.658219] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/urdf/robot_description.urdf\n'}
+[3.671105] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/urdf/safe.urdf\n'}
+[3.683115] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/base_link.STL\n'}
+[3.694930] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/camera.STL\n'}
+[3.708945] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/camera_mount.STL\n'}
+[3.717110] (-) TimerEvent: {}
+[3.729849] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/imu.STL\n'}
+[3.752348] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/laser.STL\n'}
+[3.774754] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/left_front_wheel.STL\n'}
+[3.795829] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/left_rear_wheel.STL\n'}
+[3.817297] (-) TimerEvent: {}
+[3.818851] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/right_front_wheel.STL\n'}
+[3.839784] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/meshes/right_rear_wheel.STL\n'}
+[3.864797] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/launch/gazebo.launch.py\n'}
+[3.889219] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/launch/robot_display.launch.py\n'}
+[3.910875] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/rviz/robot_display.rviz\n'}
+[3.917478] (-) TimerEvent: {}
+[3.929162] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/package_run_dependencies/multi_modal_robot_description\n'}
+[3.942659] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/parent_prefix_path/multi_modal_robot_description\n'}
+[3.956609] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/ament_prefix_path.sh\n'}
+[3.970291] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/ament_prefix_path.dsv\n'}
+[3.982677] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/path.sh\n'}
+[3.996802] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/environment/path.dsv\n'}
+[4.014651] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.bash\n'}
+[4.017639] (-) TimerEvent: {}
+[4.031766] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.sh\n'}
+[4.048404] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.zsh\n'}
+[4.066188] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/local_setup.dsv\n'}
+[4.085336] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.dsv\n'}
+[4.104194] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/ament_index/resource_index/packages/multi_modal_robot_description\n'}
+[4.117787] (-) TimerEvent: {}
+[4.122803] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/cmake/multi_modal_robot_descriptionConfig.cmake\n'}
+[4.136851] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/cmake/multi_modal_robot_descriptionConfig-version.cmake\n'}
+[4.152224] (multi_modal_robot_description) StdoutLine: {'line': b'-- Symlinking: /workspaces/multi_amr/install/multi_modal_robot_description/share/multi_modal_robot_description/package.xml\n'}
+[4.169738] (multi_modal_robot_description) CommandEnded: {'returncode': 0}
+[4.190746] (multi_modal_robot_description) JobEnded: {'identifier': 'multi_modal_robot_description', 'rc': 0}
+[4.192344] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>multi_modal_robot_description</name>
+  <version>0.0.1</version>
+  <description>FWR robot description package for Multi Modal Perception</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  <depend>robot_state_publisher</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

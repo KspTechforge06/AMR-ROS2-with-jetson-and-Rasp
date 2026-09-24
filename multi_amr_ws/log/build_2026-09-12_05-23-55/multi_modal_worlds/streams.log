@@ -1,0 +1,25 @@
+[0.287s] Invoking command in '/workspaces/multi_amr/build/multi_modal_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_worlds -- -j12 -l12
+[0.334s] Invoked command in '/workspaces/multi_amr/build/multi_modal_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --build /workspaces/multi_amr/build/multi_modal_worlds -- -j12 -l12
+[0.347s] Invoking command in '/workspaces/multi_amr/build/multi_modal_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_worlds
+[0.388s] -- Install configuration: ""
+[0.394s] -- Execute custom install script
+[0.394s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/launch/warehouse_world.launch.py
+[0.395s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/worlds/warehouse.sdf
+[0.395s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/worlds/warehouse_mapping.sdf
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/lib/multi_modal_worlds/warehouse_traffic_controller.py
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/ament_index/resource_index/package_run_dependencies/multi_modal_worlds
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/ament_index/resource_index/parent_prefix_path/multi_modal_worlds
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/environment/ament_prefix_path.sh
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/environment/ament_prefix_path.dsv
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/environment/path.sh
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/environment/path.dsv
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/local_setup.bash
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/local_setup.sh
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/local_setup.zsh
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/local_setup.dsv
+[0.397s] -- Symlinking: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.dsv
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/ament_index/resource_index/packages/multi_modal_worlds
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/cmake/multi_modal_worldsConfig.cmake
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/cmake/multi_modal_worldsConfig-version.cmake
+[0.397s] -- Up-to-date symlink: /workspaces/multi_amr/install/multi_modal_worlds/share/multi_modal_worlds/package.xml
+[0.400s] Invoked command in '/workspaces/multi_amr/build/multi_modal_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/multi_amr/install/multi_amr_coordination:/opt/ros/humble /usr/bin/cmake --install /workspaces/multi_amr/build/multi_modal_worlds
