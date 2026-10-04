@@ -5,3 +5,6 @@
 **/install/
 **/log/
 .ros/
+
+# Local-only experimental workspace (not published to this repository)
+multi_amr_gnn_grid_ws/
