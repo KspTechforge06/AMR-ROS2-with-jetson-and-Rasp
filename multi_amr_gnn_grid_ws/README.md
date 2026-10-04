@@ -10,12 +10,6 @@ cd "/home/ksp/Documents/ChatGPT/ros2 amr/multi_amr_ws"
 ./run_five_amr.sh
 ```
 
-## Live simulation capture
-
-R1's simulated camera view from the five-AMR warehouse run:
-
-![R1 warehouse camera](docs/images/warehouse_r1_camera.png)
-
 The five robot nodes are `r1`, `r2`, `r3`, `r4`, and `r5`. Each publishes:
 
 ```text
